@@ -5,3 +5,4 @@ from polls.models import Choice, ChoiceAdmin
 
 admin.site.register(Question, QuestionList)
 admin.site.register(Choice, ChoiceAdmin)
+# no need here
