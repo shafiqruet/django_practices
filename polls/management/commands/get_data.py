@@ -4,6 +4,10 @@ from polls.models import Question
 
 
 class Command(BaseCommand):
+
+    def data_check():
+        print("Working here")
+
     def handle(self, **options):
         result = Question.objects.all()
         for row in result:
