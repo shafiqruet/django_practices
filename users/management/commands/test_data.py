@@ -40,3 +40,4 @@ class Command(BaseCommand):
 
         new_list = self.get_family_tree(member, 1)
         print(new_list)
+        print("Script run done")
