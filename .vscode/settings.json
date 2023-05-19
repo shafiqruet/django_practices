@@ -1,0 +1,5 @@
+{
+    "python.formatting.provider": "autopep8",
+    "editor.wordWrapColumn": 140,
+    "editor.wordWrap": "wordWrapColumn"
+}
