@@ -8,3 +8,5 @@ class Command(BaseCommand):
         result = Question.objects.all()
         for row in result:
             print(row.id)
+
+        print("Script run done")
