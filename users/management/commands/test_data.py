@@ -11,6 +11,7 @@ class Command(BaseCommand):
     def get_family_tree(self, user, count):
         """ return a family tree for a Person object """
         print(user.id)
+        print("What is final data")
         children = User.objects.filter(sponsor_id_id=user.id)
         count += 1
         print(f"COunt:{count}")
