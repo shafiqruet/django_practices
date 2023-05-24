@@ -7,8 +7,6 @@ class Command(BaseCommand):
 
     def data_check():
         print("Working here")
-        # i will write code here
-        print("Data here")
 
     def handle(self, **options):
         result = Question.objects.all()
